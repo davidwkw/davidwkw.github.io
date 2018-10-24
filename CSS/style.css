@@ -1,0 +1,71 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    text-align: right;
+    background: rgb(59, 59, 56, 0.5);
+    margin-top: 0px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar a {
+    color: white;
+    padding: 2%;
+    text-decoration-line: none;
+}
+
+body{
+    background-image: url("../images/top-view-man-hands-typing-on-a-keyboard-in-a-dark-room-hacker-it-professional-computer-specialist-at-work-unrecognizable_blx-gwgzfe_thumbnail-full01.png");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: "Fredoka One", sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.display-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-picture img{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+
+}
+
+.gallery{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery img{
+    width: 90%;
+    height: 90%;
+}
+
+.gallery a{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: rgb(59, 59, 56, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer a{
+    color: white;
+    text-decoration-line: none;
+}
